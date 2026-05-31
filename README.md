@@ -1,8 +1,8 @@
-# Darwin Optimized Skills
+# skills-darwin-optimized
 
 > 达尔文.skill 优化成果——72 skills 基线评估 + 8 个 skills Phase 2 优化
 
-## 优化成果
+## 优化成果（已优化）
 
 | Skill | 旧分 | 新分 | 增量 |
 |-------|------|------|------|
@@ -24,26 +24,73 @@
 3. **无反例清单** — 反例缺失或只有1条
 4. **软化措辞** — 含"if applicable"/"建议"/"可以考虑"
 
-## 文件结构
-
-```
-optimized-skills/
-├── mobile-onboarding/SKILL.md      # +205行，从8行极简到完整workflow
-├── agency-finder/SKILL.md          # +133行，新增步骤+异常处理+artifact规范
-├── pm-spec/SKILL.md                # +209行，重写PRD结构+三段式+检查点
-├── team-okrs/SKILL.md              # +198行，新增OKR原则+三态系统+检查点
-├── refero-fetcher/SKILL.md        # +156行，新增截图策略+异常处理
-├── weekly-update/SKILL.md          # +151行，重写8页结构+指标要求
-├── eng-runbook/SKILL.md            # +235行，新增告警表+5步检查表+命令块
-├── skillrush-town/SKILL.md         # +181行，新增4路径分支+参考文档要求
-└── README.md
-```
-
 ## 基线评估数据
 
 - **72 skills** 完成红灯扫描：68 CLEAN / 4 FLAGGED
 - **4个FLAGGED:** self-improving-agent、video-shortform、lovart-skill、skillrush-town
-- **Git分支:** `auto-optimize/20260531-1328`（所有改动在该分支上）
+
+## 目录结构
+
+```
+skills-darwin-optimized/
+├── README.md                    # 本文件
+├── optimized/                   # 已优化的 8 个 skills
+│   ├── mobile-onboarding/
+│   ├── agency-finder/
+│   ├── pm-spec/
+│   ├── team-okrs/
+│   ├── refero-fetcher/
+│   ├── weekly-update/
+│   ├── eng-runbook/
+│   └── skillrush-town/
+└── original/                    # 其余 64 个 skills（基线评分版）
+    ├── audio-jingle/
+    ├── blog-post/
+    ├── critique/
+    ├── dashboard/
+    ├── dating-web/
+    ├── design-brief/
+    ├── digital-eguide/
+    ├── docs-page/
+    ├── email-marketing/
+    ├── finance-report/
+    ├── gamified-app/
+    ├── guizang-html-to-pptx/
+    ├── guizang-ppt/
+    ├── hatch-pet/
+    ├── hr-onboarding/
+    ├── html-ppt/
+    ├── html-ppt-*/
+    ├── huashu-design/
+    ├── hyperframes/
+    ├── image-poster/
+    ├── invoice/
+    ├── kami-deck/
+    ├── kami-landing/
+    ├── kanban-board/
+    ├── lovart-skill/
+    ├── magazine-poster/
+    ├── meeting-notes/
+    ├── mobile-app/
+    ├── motion-frames/
+    ├── open-design-landing/
+    ├── open-design-landing-deck/
+    ├── pptx-html-fidelity-audit/
+    ├── pricing-page/
+    ├── product-copywriting/
+    ├── replit-deck/
+    ├── saas-landing/
+    ├── self-improving-agent/
+    ├── simple-deck/
+    ├── social-carousel/
+    ├── sprite-animation/
+    ├── taste-skill/
+    ├── tweaks/
+    ├── video-shortform/
+    ├── web-prototype/
+    ├── web-prototype-*/
+    └── wireframe-sketch/
+```
 
 ## 来源
 
@@ -51,4 +98,4 @@ optimized-skills/
 - 原始 skills: `C:\Users\Administrator\.openclaw\workspace\skills\`
 
 ---
-*优化日期: 2026-05-31*
+*备份日期: 2026-05-31*
